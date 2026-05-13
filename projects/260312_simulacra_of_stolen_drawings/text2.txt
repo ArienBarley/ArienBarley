@@ -1,0 +1,3 @@
+Videos and audio from installation for alfonso borragan's course Art and Interdisciplinarity II 
+After the drawings that were originally going to be displayed were stolen - their digital traces were fed into a homegrown neural network (a VAE architecture trained 100% locally) to produce the videos shown.
+Audio is a clip recording the tensioning of the rope that held up my hammock - my bed for the year - and some background sounds, run through a sandpile model (an abstract structure used to model the propagation of tension on earthquake faultiness among other things).
