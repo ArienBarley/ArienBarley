@@ -1,0 +1,161 @@
+<HTML><HEAD>
+<TITLE>arien barley</TITLE>
+<meta NAME="DESCRIPTION" CONTENT="portfolio">
+<meta NAME="KEYWORDS" CONTENT="how about no ">
+</HEAD><BODY BGCOLOR="#FFFFFF">
+
+
+<script language="JavaScript">
+<!--//
+let FILETREE = {};
+function randomProfile() {
+    const me = FILETREE["me"].filter(f => !f.startsWith("."));
+    const pic = me[Math.floor(Math.random() * me.length)];
+    document.getElementById("profile").src = "me/" + pic;
+}
+
+window.onload = function () {
+	console.log("hello -_-");
+	//pick random profile image
+	fetch("filetree.json")
+	.then(r => r.json())
+	.then(filetree => {
+		//random profile
+		FILETREE = filetree;
+		const me = filetree["me"];
+		const randomProfile = me[Math.floor(Math.random()*me.length)];
+		document.getElementById("profile").src = "me/" + randomProfile;
+		//end random profile
+
+		//generate projects list
+		const projects = Object.keys(filetree)
+		    .filter(k => k.startsWith("projects/") && k !== "projects")
+		    .sort((a, b) => {
+		        const dateA = a.replace("projects/", "").slice(0, 6);
+		        const dateB = b.replace("projects/", "").slice(0, 6);
+		        return dateB.localeCompare(dateA); // newest first
+		    });
+
+		const tbody = document.getElementById("portfolio").querySelector("tbody");
+		projects.forEach(key => {
+			//loop over projects
+			const folderName = key.replace("projects/", "");
+			var date = folderName.slice(0,6);
+			const title = folderName.slice(7).replace(/_/g, " ");
+			const yy = date.slice(0, 2);
+	        const mm = date.slice(2, 4);
+	        const dd = date.slice(4, 6);
+	        date = `20${yy}-${mm}-${dd}`;
+	        console.log("work: ",date, "   ", title);
+
+	        const tr = document.createElement("tr");
+			tr.innerHTML = `
+	        <td>${date}</td>
+	        <td><a href="#" onclick="openproject('${key}'); return false;">${title}</a></td>
+	      	`;
+
+        tbody.appendChild(tr);
+
+		})
+		//end generate projects list
+	})
+	.catch(err => console.log(err))
+}
+function openproject(key) {
+    const files = FILETREE[key];
+    const folderName = key.replace("projects/", "");
+    const title = folderName.slice(7).replace(/_/g, " ");
+
+    const pdf = files.find(f => f.match(/\.pdf$/i));
+    if (pdf) {
+        window.open(`${key}/${pdf}`, "project", "width=900,height=700,scrollbars=yes,resizable=yes");
+        return;
+    }
+
+    const allMedia   = files.filter(f => f.match(/\.(png|jpg|jpeg|gif|mp4|m4v|webm|mov|mp3|wav|ogg)$/i)).sort();
+    const allTexts   = files.filter(f => f.match(/\.(txt|md)$/i)).sort();
+    const allYoutube = files.filter(f => f.match(/\.youtube$/i)).sort();
+
+    const fetchTexts   = allTexts.map(f => fetch(`${key}/${f}`).then(r => r.text()));
+    const fetchYoutube = allYoutube.map(f => fetch(`${key}/${f}`).then(r => r.text()));
+
+    Promise.all([...fetchTexts, ...fetchYoutube]).then(results => {
+        const actualText  = results.slice(0, allTexts.length);
+        const youtubeURLs = results.slice(allTexts.length).map(url =>
+            url.trim().replace("watch?v=", "embed/")
+        );
+
+        const rows = Math.max(allMedia.length + youtubeURLs.length, allTexts.length);
+        const allMediaItems = [
+            ...youtubeURLs.map(url => ({ type: "youtube", url })),
+            ...allMedia.map(f => ({ type: "file", f }))
+        ];
+
+        let tableRows = "";
+        for (let i = 0; i < rows; i++) {
+            let mediaTD = "";
+            if (allMediaItems[i]) {
+                const item = allMediaItems[i];
+                if (item.type === "youtube") {
+                    mediaTD = `<iframe width="100%" height="315" src="${item.url}" frameborder="0" allowfullscreen></iframe>`;
+                } else {
+                    const f = item.f;
+                    const path = `${key}/${f}`;
+                    if (f.match(/\.(mp4|m4v|webm|mov)$/i))
+                        mediaTD = `<video controls style="max-width:100%;display:block"><source src="${path}"></video>`;
+                    else if (f.match(/\.(mp3|wav|ogg)$/i))
+                        mediaTD = `<audio controls style="display:block"><source src="${path}"></audio>`;
+                    else
+                        mediaTD = `<img src="${path}" style="max-width:100%;display:block">`;
+                }
+            }
+            const textTD = actualText[i] ? `<pre>${actualText[i]}</pre>` : "";
+            tableRows += `<tr><td>${mediaTD}</td><td>${textTD}</td></tr>`;
+        }
+
+        const html = `<!DOCTYPE html>
+            <html><head><title>${title}</title>
+            <base href="${window.location.href}">
+            <style>
+                body { margin: 20px; }
+                table { width: 100%; border-collapse: collapse; }
+                td { vertical-align: top; padding: 10px; width: 50%; border-top: 1px solid #eee; }
+                pre { white-space: pre-wrap; word-wrap: break-word; }
+            </style>
+            </head><body>
+            <h3>${title}</h3>
+            <table><tbody>${tableRows}</tbody></table>
+            </body></html>`;
+
+        const w = window.open("", "project", "width=900,height=700,scrollbars=yes,resizable=yes");
+        w.document.open();
+        w.document.write(html);
+        w.document.close();
+    });
+}//end openproject
+
+-->
+</script>
+
+
+
+<h3><a name ="top">arien barley</a></h3>
+<table cellspacing="10">
+<tr><td><img id = "profile" src="me/inabox.png" height="200"><br><td><a href="#" onclick="randomProfile(); return false;">random picture</a><br></tr>
+</table>
+
+<hr>
+<h3><a NAME="biography">About</a></h3>
+<pre>This is a biography</pre>
+
+<h3><a NAME="references">References.</a></h3>
+Felix Mcclafferty &lt;<a href="https://www.felixmcclafferty.org/">website</a>&gt;Stroud, UK<br>
+Rory Thomas-Lawton &lt;<a href="???">???</a>&gt;Stroud, UK<br>
+Placius Holdius &lt;<a href="PL@gmail.com">PL@gmail.com</a>&gt;somewhere, anywhere<br>
+<hr>
+<h3><a NAME="works">works.</a></h3>
+<table id='portfolio' cellspacing="10">
+	<tbody>
+	</tbody>
+</table>
+</BODY>

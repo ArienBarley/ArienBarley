@@ -1,0 +1,82 @@
+{
+  "root": [
+    "index.html",
+    ".DS_Store",
+    "test.html",
+    "filetree.json",
+    "updataJson.py"
+  ],
+  "projects": [
+    ".DS_Store"
+  ],
+  "projects/260325_sitting_in_a_voice_cloning_algorithm_explaining_my_project": [
+    "video w code is hard.mp4"
+  ],
+  "projects/260506_dissertation_(writeup for system_portrait_16.03.2026)": [
+    "text.txt",
+    "dissertation v3 (3).pdf"
+  ],
+  "projects/260512_title": [
+    "pixels.png",
+    "text.txt"
+  ],
+  "projects/260316_System_Portrait_16.03.2026": [
+    ".DS_Store",
+    "pixels2.mp4",
+    "text1.txt",
+    "pixels1.png",
+    "pixels3.png",
+    "text3.txt",
+    "text2.txt"
+  ],
+  "projects/260312_simulacra_of_stolen_drawings": [
+    "pixels.png",
+    "text.txt"
+  ],
+  "projects/251200_untitled_performace": [
+    ".DS_Store",
+    "pixels2.jpeg",
+    "pixels1.jpeg",
+    "text.txt"
+  ],
+  "me": [
+    "Screenshot 2026-05-12 at 22.41.21.png",
+    "dream 1 crop 2_00406.png",
+    ".DS_Store",
+    "88972947_223338082398689_240649914755699570_n.jpg",
+    "Screenshot 2026-05-12 at 22.41.32.png",
+    "91005804_146479036755914_4924508702338884995_n.jpg",
+    "IMG_3813.jpg",
+    "IMG_3812.jpg",
+    "Screenshot 2026-05-12 at 22.43.46.png",
+    "Screenshot 2026-05-12 at 22.41.41.png",
+    "inabox.png",
+    "IMG_3811.jpg",
+    "IMG_3829.jpg",
+    "IMG_3815.jpg",
+    "IMG_3814.jpg",
+    "IMG_3828.jpg",
+    "IMG_3816.jpg",
+    "Screenshot 2026-05-13 at 14.14.03.png",
+    "Screenshot 2026-05-12 at 22.41.46.png",
+    "IMG_3817.jpg",
+    "IMG_3826.jpg",
+    "IMG_3827.jpg",
+    "IMG_3825.jpg",
+    "Screenshot 2026-05-12 at 22.48.50.png",
+    "IMG_3819.jpg",
+    "IMG_3818.jpg",
+    "IMG_3824.jpg",
+    "IMG_3820.jpg",
+    "IMG_3823.jpg",
+    "IMG_3822.jpg",
+    "Screenshot 2026-05-12 at 22.41.15.png",
+    "Screenshot 2026-05-12 at 22.43.04.png",
+    "Screenshot 2026-05-12 at 22.41.03.png",
+    "shrink.gif",
+    "Screenshot 2026-05-12 at 22.42.53.png",
+    "12841163_192432561126370_7737705274114937071_o.jpg",
+    "bright-red.gif",
+    "Screenshot 2026-05-12 at 22.41.10.png"
+  ]
+}
