@@ -22,6 +22,9 @@
     "pixels.png",
     "text.txt"
   ],
+  "projects/260412_Newer_media_art_worsening_dialemmas": [
+    "draft 5.pdf"
+  ],
   "projects/260316_System_Portrait_16.03.2026": [
     "pixels2.youtube",
     ".DS_Store",
@@ -34,6 +37,10 @@
   "projects/260312_simulacra_of_stolen_drawings": [
     "pixels.png",
     "text.txt"
+  ],
+  "projects/260415_AI_HAS_NOT_ARRIVED": [
+    ".DS_Store",
+    "SAP poster (8).pdf"
   ],
   "projects/251200_untitled_performace": [
     ".DS_Store",
@@ -116,6 +123,9 @@
   "git/objects/05": [
     "89b4c9e1b69b40c9d68ab24a7e41660a968582"
   ],
+  "git/objects/a4": [
+    "3c18542f8eed7b5054ba79e7d7e3ea5cd63be6"
+  ],
   "git/objects/b4": [
     "455422551183c86e7fad35a33369da75a99945",
     "b4e2dbf5027db6f1786b3861a69e76f00c047d"
@@ -125,6 +135,9 @@
   ],
   "git/objects/fd": [
     "ed6d8e75e505e6d2e7d3cb0211a8135397ca53"
+  ],
+  "git/objects/f2": [
+    "97312c226c597e58a7d2c33bac8c1a5953c90a"
   ],
   "git/objects/cf": [
     "e8d50cb777ccae866af830c80f7109c0b8a0d4"
@@ -150,13 +163,21 @@
   "git/objects/1f": [
     "02866f327e3a40455cf330433631655eca64e0"
   ],
+  "git/objects/80": [
+    "5a3dfaa33c15b4e0ad0e220548e0df05b35799",
+    "b457db66598349ee886d0be8696a470dfd0714"
+  ],
   "git/objects/28": [
     "aad6df0705ac750ca3e22146bb506043dc0516"
+  ],
+  "git/objects/17": [
+    "88f7c060ff3bd7904f4e72905ab3d61ac4c264"
   ],
   "git/objects/21": [
     "aee4fd8bf3ca0949894467e29f1d6bc721a513"
   ],
   "git/objects/75": [
+    "ec03cb13a97dd8d2a370c581c255bff3b40d07",
     "340e147d3791495c770c131570af1a9772346b"
   ],
   "git/objects/81": [
@@ -174,6 +195,9 @@
   "git/objects/38": [
     "b29078910fe14032652ca0f97921510ea0cfbb",
     "e16d932bb1ee81c8d0edf41085fb49a5960bf3"
+  ],
+  "git/objects/00": [
+    "4f4005d403083e676467a0d66d0be63d7f0993"
   ],
   "git/objects/36": [
     "342e4726eeb9c81702ad83f7e7aa933e537ccf"
@@ -259,8 +283,17 @@
   "git/objects/12": [
     "a335af963a767e0f2af20de8d9bfa201f38676"
   ],
+  "git/objects/8c": [
+    "30f72846677e10c709833eaedd6f760720bf5b"
+  ],
+  "git/objects/76": [
+    "ec439d9249dfd1f93cd47f9d28992ee82daedd"
+  ],
   "git/objects/1c": [
     "cfc9c76aef51b54a66bd3c1fecc908ea9d5df1"
+  ],
+  "git/objects/49": [
+    "f6b2fdc1fc5a02afc8cc04c007fb90728a3cf8"
   ],
   "git/objects/7f": [
     "ace3ca468d9a9faaa9bb4ae3f81a6dd61184e7"
