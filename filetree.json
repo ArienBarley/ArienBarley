@@ -2,7 +2,8 @@
   "root": [
     "index.html",
     ".DS_Store",
-    "test.html",
+    "README.md",
+    ".gitignore",
     "filetree.json",
     "updataJson.py"
   ],
@@ -10,10 +11,11 @@
     ".DS_Store"
   ],
   "projects/260325_sitting_in_a_voice_cloning_algorithm_explaining_my_project": [
-    "video w code is hard.mp4"
+    ".DS_Store",
+    "pixels1.youtube"
   ],
   "projects/260506_dissertation_(writeup for system_portrait_16.03.2026)": [
-    "text.txt",
+    ".DS_Store",
     "dissertation v3 (3).pdf"
   ],
   "projects/260512_title": [
@@ -21,8 +23,8 @@
     "text.txt"
   ],
   "projects/260316_System_Portrait_16.03.2026": [
+    "pixels2.youtube",
     ".DS_Store",
-    "pixels2.mp4",
     "text1.txt",
     "pixels1.png",
     "pixels3.png",
@@ -78,5 +80,234 @@
     "12841163_192432561126370_7737705274114937071_o.jpg",
     "bright-red.gif",
     "Screenshot 2026-05-12 at 22.41.10.png"
+  ],
+  "git": [
+    "config",
+    "HEAD",
+    "description",
+    "index",
+    "packed-refs",
+    "COMMIT_EDITMSG",
+    "FETCH_HEAD"
+  ],
+  "git/objects/0c": [
+    "bef0eb73ae5a26773c0e05f75b1cfea86407e4"
+  ],
+  "git/objects/66": [
+    "0e59869d5047b6c92d71e70bbabf871819af7d"
+  ],
+  "git/objects/57": [
+    "32d9111b08460954f5cc1fafbfcbb2ae799b34"
+  ],
+  "git/objects/9b": [
+    "3bc5832d724b814c6cca37a1b166d44830bc9c",
+    "e5f6f3095e13179c34dfb6836e6d7510d481f1"
+  ],
+  "git/objects/9e": [
+    "08c15c4b84a31296a5b6874e34dccd06b900db"
+  ],
+  "git/objects/32": [
+    "960911825bc7daeadeb7ca1a8b8f06bd745828",
+    "b26926df35a7fabcd8d09a343ab5564d382f9c"
+  ],
+  "git/objects/33": [
+    "414bc38b8533feadc930c77c86d11fc35a4818"
+  ],
+  "git/objects/05": [
+    "89b4c9e1b69b40c9d68ab24a7e41660a968582"
+  ],
+  "git/objects/b4": [
+    "455422551183c86e7fad35a33369da75a99945",
+    "b4e2dbf5027db6f1786b3861a69e76f00c047d"
+  ],
+  "git/objects/ee": [
+    "ff50aacffeae5a1c7028ae4439945a6541a076"
+  ],
+  "git/objects/fd": [
+    "ed6d8e75e505e6d2e7d3cb0211a8135397ca53"
+  ],
+  "git/objects/cf": [
+    "e8d50cb777ccae866af830c80f7109c0b8a0d4"
+  ],
+  "git/objects/ca": [
+    "492785b692621d68969fd2cdb09a5bd13ef911"
+  ],
+  "git/objects/e4": [
+    "3b0f988953ae3a84b00331d0ccf5f7d51cb3cf",
+    "af372e4af73d30173c1f859197ec5c9606c660"
+  ],
+  "git/objects/fb": [
+    "b3e4430c340b0eaab16629cd2d220c310e2c65"
+  ],
+  "git/objects/pack": [
+    "pack-f7088947cb58b0cde30f7fb77e0e1169e42d4d49.pack",
+    "pack-f7088947cb58b0cde30f7fb77e0e1169e42d4d49.idx",
+    "pack-f7088947cb58b0cde30f7fb77e0e1169e42d4d49.rev"
+  ],
+  "git/objects/7c": [
+    "f8524f07c47121edbd7947c6cddf2e8f0e51f3"
+  ],
+  "git/objects/1f": [
+    "02866f327e3a40455cf330433631655eca64e0"
+  ],
+  "git/objects/28": [
+    "aad6df0705ac750ca3e22146bb506043dc0516"
+  ],
+  "git/objects/21": [
+    "aee4fd8bf3ca0949894467e29f1d6bc721a513"
+  ],
+  "git/objects/75": [
+    "340e147d3791495c770c131570af1a9772346b"
+  ],
+  "git/objects/81": [
+    "664b059630a1fde4addfdd4673fab76bc4d28d"
+  ],
+  "git/objects/2a": [
+    "16adbc5cf3ee56ea325f63e52bf43935925811"
+  ],
+  "git/objects/9f": [
+    "e484fa181249af4e92920109e6253ba2f9a3a9"
+  ],
+  "git/objects/6b": [
+    "cbc582dae3147c2f85e9eafd141d41c73165f6"
+  ],
+  "git/objects/38": [
+    "b29078910fe14032652ca0f97921510ea0cfbb",
+    "e16d932bb1ee81c8d0edf41085fb49a5960bf3"
+  ],
+  "git/objects/36": [
+    "342e4726eeb9c81702ad83f7e7aa933e537ccf"
+  ],
+  "git/objects/09": [
+    "d94f91c5e62cf580cfd795db7cd55ba49c4eef"
+  ],
+  "git/objects/96": [
+    "5ef8d283fd034195416cbaf62befc162d76666"
+  ],
+  "git/objects/3a": [
+    "ec647d2a8fc5be62aee08d7b2f3201ca974086"
+  ],
+  "git/objects/5b": [
+    "5f1f83b6fb28bdd8bbb96c2a4fb2d5f54c7496"
+  ],
+  "git/objects/08": [
+    "a979b8f545ee66e3c63e3d084e9ad9cf1ad765"
+  ],
+  "git/objects/6d": [
+    "118fee51916539067ec57396511388954b98c5"
+  ],
+  "git/objects/0f": [
+    "a89af3908e6d3acb4f976bd37392bccf1451a3"
+  ],
+  "git/objects/90": [
+    "0db008fd539c0048edeb08020f2967910018c3",
+    "56cfc4e3268e535708623c37ce9f98947c830f"
+  ],
+  "git/objects/dc": [
+    "1097da6fa957f76df5210992f5ace5b6112020"
+  ],
+  "git/objects/b7": [
+    "a86feeaca79e58b57aa90ff8755e9a21ba30b5",
+    "6d15c60c3a9c3f2e4f4005bacf4d4b7d0cc3f5",
+    "3d5146725c7722e7b15af20171d1b7dbcbcdc6"
+  ],
+  "git/objects/a8": [
+    "702182c4ff0697f1c746525548647e510549df"
+  ],
+  "git/objects/b0": [
+    "e02e1b46e99e238bd0c1f32fe9a26b66b71dea"
+  ],
+  "git/objects/a6": [
+    "3f239df5730c7b9383ee7e10eefaddfb38680a"
+  ],
+  "git/objects/e6": [
+    "9de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  ],
+  "git/objects/f9": [
+    "02c95414e2cc15d0b300103d064fabf5049376"
+  ],
+  "git/objects/e8": [
+    "c34373c82a894747febbf88c2fbaa2786d03bd"
+  ],
+  "git/objects/ff": [
+    "c77a0d17b131db968a81e5e916c8f436511df5"
+  ],
+  "git/objects/c2": [
+    "1ded18178c27e7ec8244de2053c653f89916f2"
+  ],
+  "git/objects/e9": [
+    "ab742904012382f9133a0f907b97992988aa25"
+  ],
+  "git/objects/46": [
+    "cd2635afe6e79f59752b72499e30b84ba5788c",
+    "82109df09c0a04cb9dbb7552f7de0e07c2fe20"
+  ],
+  "git/objects/41": [
+    "67666869e7655673a412bf5b1c1fcf9721cc7c"
+  ],
+  "git/objects/1b": [
+    "eb66ff9cc559bc655186ee9d02561059d9115f",
+    "9ad843aba558fe9c5222104f9c2b9e9788b3d5"
+  ],
+  "git/objects/8d": [
+    "0235c30c73f94064b7b7ee07e23ae8a6a4c0d3"
+  ],
+  "git/objects/15": [
+    "9fed0a937045c2262acf31d35624c5ed54014b",
+    "1b0826810f558b3f66867eead0193c41d2122b"
+  ],
+  "git/objects/12": [
+    "a335af963a767e0f2af20de8d9bfa201f38676"
+  ],
+  "git/objects/1c": [
+    "cfc9c76aef51b54a66bd3c1fecc908ea9d5df1"
+  ],
+  "git/objects/7f": [
+    "ace3ca468d9a9faaa9bb4ae3f81a6dd61184e7"
+  ],
+  "git/objects/7a": [
+    "e0b303c0a1c6b4289852754d159fcc763ecd54"
+  ],
+  "git/objects/22": [
+    "fff0dd28f5e43f6fdb4de82ddc4410a36aa38c"
+  ],
+  "git/objects/25": [
+    "acaccc683ffe5c0405bcd305273e279a662746"
+  ],
+  "git/info": [
+    "exclude"
+  ],
+  "git/logs": [
+    "HEAD"
+  ],
+  "git/logs/refs/heads": [
+    "main"
+  ],
+  "git/logs/refs/remotes/origin": [
+    "HEAD",
+    "main"
+  ],
+  "git/hooks": [
+    "commit-msg.sample",
+    "pre-rebase.sample",
+    "sendemail-validate.sample",
+    "pre-commit.sample",
+    "applypatch-msg.sample",
+    "fsmonitor-watchman.sample",
+    "pre-receive.sample",
+    "prepare-commit-msg.sample",
+    "post-update.sample",
+    "pre-merge-commit.sample",
+    "pre-applypatch.sample",
+    "pre-push.sample",
+    "update.sample",
+    "push-to-checkout.sample"
+  ],
+  "git/refs/heads": [
+    "main"
+  ],
+  "git/refs/remotes/origin": [
+    "HEAD",
+    "main"
   ]
 }
