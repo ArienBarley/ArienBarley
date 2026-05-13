@@ -35,7 +35,8 @@
     "text2.txt"
   ],
   "projects/260312_simulacra_of_stolen_drawings": [
-    "pixels.png",
+    ".DS_Store",
+    "pixels1.youtube",
     "text.txt"
   ],
   "projects/260415_AI_HAS_NOT_ARRIVED": [
@@ -47,6 +48,25 @@
     "pixels2.jpeg",
     "pixels1.jpeg",
     "text.txt"
+  ],
+  "projects/251200_things_coming_apart_in_charcoal": [
+    "chaotics.jpeg",
+    "Dream 1.jpeg",
+    "incentives.jpeg",
+    ".DS_Store",
+    "Peeling 2.jpg",
+    "1000018227.jpg",
+    "Peeling 3.jpeg",
+    "1000018230.jpg",
+    "1000019315.jpg",
+    "incentive river.jpeg",
+    "Network Jungle 1.jpg",
+    "1000018223.jpg",
+    "peeling 1.jpeg",
+    "dream 2.jpg",
+    "eggpeal.jpg",
+    "text.txt",
+    "light cloud.jpeg"
   ],
   "me": [
     "Screenshot 2026-05-12 at 22.41.21.png",
@@ -97,6 +117,12 @@
     "COMMIT_EDITMSG",
     "FETCH_HEAD"
   ],
+  "git/objects/61": [
+    "f006ea17a1508dda76f334790694821e501667"
+  ],
+  "git/objects/92": [
+    "96c039bd44c6c68e2dd2b825194d5b1f62096a"
+  ],
   "git/objects/0c": [
     "bef0eb73ae5a26773c0e05f75b1cfea86407e4"
   ],
@@ -104,6 +130,7 @@
     "0e59869d5047b6c92d71e70bbabf871819af7d"
   ],
   "git/objects/57": [
+    "8cb69c98a7a43d6b8fb75a69fdf1db30870009",
     "32d9111b08460954f5cc1fafbfcbb2ae799b34"
   ],
   "git/objects/9b": [
@@ -117,6 +144,9 @@
     "960911825bc7daeadeb7ca1a8b8f06bd745828",
     "b26926df35a7fabcd8d09a343ab5564d382f9c"
   ],
+  "git/objects/3d": [
+    "1e221caa4d5f6df9f8185dc535fe1fdd62f315"
+  ],
   "git/objects/33": [
     "414bc38b8533feadc930c77c86d11fc35a4818"
   ],
@@ -126,9 +156,18 @@
   "git/objects/a4": [
     "3c18542f8eed7b5054ba79e7d7e3ea5cd63be6"
   ],
+  "git/objects/da": [
+    "8cdb651c8eb44f9d646087918fcbce2c4cc0b9"
+  ],
   "git/objects/b4": [
     "455422551183c86e7fad35a33369da75a99945",
     "b4e2dbf5027db6f1786b3861a69e76f00c047d"
+  ],
+  "git/objects/ab": [
+    "bb8c76db6db41fe395538d422d2e4c3a4109e1"
+  ],
+  "git/objects/f4": [
+    "923c2aa5b30702e41c3de3e60a99effc1d24da"
   ],
   "git/objects/ee": [
     "ff50aacffeae5a1c7028ae4439945a6541a076"
@@ -158,6 +197,7 @@
     "pack-f7088947cb58b0cde30f7fb77e0e1169e42d4d49.rev"
   ],
   "git/objects/7c": [
+    "a57323e9565f7e2b2403efe40d18caa9b63602",
     "f8524f07c47121edbd7947c6cddf2e8f0e51f3"
   ],
   "git/objects/1f": [
@@ -173,6 +213,9 @@
   "git/objects/17": [
     "88f7c060ff3bd7904f4e72905ab3d61ac4c264"
   ],
+  "git/objects/10": [
+    "aab6b90bd6c58112509d6e07f2ce5d610a9bad"
+  ],
   "git/objects/21": [
     "aee4fd8bf3ca0949894467e29f1d6bc721a513"
   ],
@@ -186,10 +229,14 @@
   "git/objects/2a": [
     "16adbc5cf3ee56ea325f63e52bf43935925811"
   ],
+  "git/objects/88": [
+    "126d97d8d35940dab1f0ae1414dd57635b3250"
+  ],
   "git/objects/9f": [
     "e484fa181249af4e92920109e6253ba2f9a3a9"
   ],
   "git/objects/6b": [
+    "8fd2f46c018a9f62aaa3a23cc1a38768fb9ad0",
     "cbc582dae3147c2f85e9eafd141d41c73165f6"
   ],
   "git/objects/38": [
@@ -197,13 +244,17 @@
     "e16d932bb1ee81c8d0edf41085fb49a5960bf3"
   ],
   "git/objects/00": [
-    "4f4005d403083e676467a0d66d0be63d7f0993"
+    "4f4005d403083e676467a0d66d0be63d7f0993",
+    "064593ac04eff5e5486b0029214ce35a6b8812"
   ],
   "git/objects/36": [
     "342e4726eeb9c81702ad83f7e7aa933e537ccf"
   ],
   "git/objects/09": [
     "d94f91c5e62cf580cfd795db7cd55ba49c4eef"
+  ],
+  "git/objects/5d": [
+    "0b9313bcfbfd1d66acee377d82e964505903a9"
   ],
   "git/objects/96": [
     "5ef8d283fd034195416cbaf62befc162d76666"
@@ -251,6 +302,7 @@
     "02c95414e2cc15d0b300103d064fabf5049376"
   ],
   "git/objects/e8": [
+    "128cb2a5b89fe78515cf6df9b375a802f5de77",
     "c34373c82a894747febbf88c2fbaa2786d03bd"
   ],
   "git/objects/ff": [
@@ -262,23 +314,45 @@
   "git/objects/e9": [
     "ab742904012382f9133a0f907b97992988aa25"
   ],
+  "git/objects/f8": [
+    "ef41e0252f78e6e773c5c51e70e10b521c0d7e"
+  ],
   "git/objects/46": [
     "cd2635afe6e79f59752b72499e30b84ba5788c",
     "82109df09c0a04cb9dbb7552f7de0e07c2fe20"
   ],
+  "git/objects/79": [
+    "d880795dec3142fe135cd8904385e3391c3cb0",
+    "5df5367998aa2bd13f2f18a691e5996dabd1a7",
+    "e7afc1293d2cee3fc529d13b0702e367fa9941"
+  ],
   "git/objects/41": [
     "67666869e7655673a412bf5b1c1fcf9721cc7c"
+  ],
+  "git/objects/83": [
+    "bcd9b1cb0be5566ca8f2df836fd647ca08bb5b",
+    "25b45ddf7864e5cd48e0579a30f03958604a95"
   ],
   "git/objects/1b": [
     "eb66ff9cc559bc655186ee9d02561059d9115f",
     "9ad843aba558fe9c5222104f9c2b9e9788b3d5"
+  ],
+  "git/objects/77": [
+    "624eb31b003f03a21ab99c510bd0c81ccefc0b"
+  ],
+  "git/objects/70": [
+    "86699d9f0e46be6b5de6c861b278ba65556588"
+  ],
+  "git/objects/24": [
+    "8ae7a901937e3ad3dc73c39d5cadd790e4a2c0"
   ],
   "git/objects/8d": [
     "0235c30c73f94064b7b7ee07e23ae8a6a4c0d3"
   ],
   "git/objects/15": [
     "9fed0a937045c2262acf31d35624c5ed54014b",
-    "1b0826810f558b3f66867eead0193c41d2122b"
+    "1b0826810f558b3f66867eead0193c41d2122b",
+    "8da9f4d8f193138b2d3010c280c56bc56ac386"
   ],
   "git/objects/12": [
     "a335af963a767e0f2af20de8d9bfa201f38676"
@@ -294,6 +368,9 @@
   ],
   "git/objects/49": [
     "f6b2fdc1fc5a02afc8cc04c007fb90728a3cf8"
+  ],
+  "git/objects/40": [
+    "e8d189fc6541b291f38721f05faab053070b04"
   ],
   "git/objects/7f": [
     "ace3ca468d9a9faaa9bb4ae3f81a6dd61184e7"
