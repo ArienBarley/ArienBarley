@@ -68,28 +68,31 @@ window.onload = function () {
 		    });
 
 		const tbody = document.getElementById("portfolio").querySelector("tbody");
-        projects.forEach(key => {
-            const folderName = key.replace("projects/", "");
-            var date = folderName.slice(0,6);
-            const title = folderName.slice(7).replace(/_/g, " ");
-            const yy = date.slice(0, 2);
-            const mm = date.slice(2, 4);
-            const dd = date.slice(4, 6);
-            date = `20${yy}-${mm}-${dd}`;
+        Promise.all(
+            projects.map(key =>
+                fetch(`${key}/meta.txt`)
+                    .then(r => r.ok ? r.text() : "")
+                    .catch(() => "")
+                    .then(meta => ({ key, meta }))
+            )
+        ).then(results => {
+            results.forEach(({ key, meta }) => {
+                const folderName = key.replace("projects/", "");
+                var date = folderName.slice(0,6);
+                const title = folderName.slice(7).replace(/_/g, " ");
+                const yy = date.slice(0, 2);
+                const mm = date.slice(2, 4);
+                const dd = date.slice(4, 6);
+                date = `20${yy}-${mm}-${dd}`;
 
-            // NEW: try to grab meta.txt
-            fetch(`${key}/meta.txt`)
-                .then(r => r.ok ? r.text() : "")
-                .catch(() => "")
-                .then(meta => {
-                    const tr = document.createElement("tr");
-                    tr.innerHTML = `
-                        <td>${date}</td>
-                        <td><a href="#" onclick="openproject('${key}'); return false;">${title}</a><i style="color: grey; font-size: 14px;">  ${meta.trim()}</i></td>
-                    `;
-                    tbody.appendChild(tr);
-                });
-        })
+                const tr = document.createElement("tr");
+                tr.innerHTML = `
+                    <td>${date}</td>
+                    <td><a href="#" onclick="openproject('${key}'); return false;">${title}</a><i style="color: grey; font-size: 14px;">  ${meta.trim()}</i></td>
+                `;
+                tbody.appendChild(tr);
+            });
+        });
 		//end generate projects list
         document.getElementById("loading").style.display = "none";
 	})
@@ -110,7 +113,7 @@ function openproject(key) {
     }
 
     const allMedia   = files.filter(f => f.match(/\.(png|jpg|jpeg|gif|mp4|m4v|webm|mov|mp3|wav|ogg)$/i)).sort();
-    const allTexts   = files.filter(f => f.match(/\.(txt|md)$/i)).sort();
+    const allTexts = files.filter(f => f.match(/\.(txt|md)$/i) && f !== "meta.txt").sort();
     const allYoutube = files.filter(f => f.match(/\.youtube$/i)).sort();
 
     const fetchTexts   = allTexts.map(f => fetch(`${key}/${f}`).then(r => r.text()));
