@@ -82,12 +82,13 @@ window.onload = function () {
 	      	`;
 
         tbody.appendChild(tr);
-        document.getElementById("loading").style.display = "none";
 		})
 		//end generate projects list
+        document.getElementById("loading").style.display = "none";
 	})
 	.catch(err => console.log(err))
-    document.getElementById("loading").src = "uhoh.png";
+    document.getElementById("loading_img").src = "uhoh.png";
+    document.getElementById("loading").style.display = "none";
 
 }
 function openproject(key) {
@@ -178,7 +179,7 @@ function openproject(key) {
 
 <hr>
 <h3><a NAME="works">works.</a></h3>
-<img id="loading" src="me/shrink.gif" style="display:none">
+<div id="loading" style = "display: none"><p>loading</p><img id="loading_img" src="loading.gif"></div>
 <table id='portfolio' cellspacing="10">
 	<tbody>
 	</tbody>
