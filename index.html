@@ -13,7 +13,11 @@ function randomProfile() {
     const pic = me[Math.floor(Math.random() * me.length)];
     document.getElementById("profile").src = "me/" + pic;
 }
-
+function randomMedia() {
+    const me = FILETREE["me"].filter(f => !f.startsWith("."));
+    const pic = me[Math.floor(Math.random() * me.length)];
+    document.getElementById("profile").src = "me/" + pic;
+}
 window.onload = function () {
 	console.log("hello -_-");
 	//pick random profile image
@@ -102,7 +106,7 @@ function openproject(key) {
                     const f = item.f;
                     const path = `${key}/${f}`;
                     if (f.match(/\.(mp4|m4v|webm|mov)$/i))
-                        mediaTD = `<video controls style="max-width:100%;display:block"><source src="${path}"></video>`;
+                        mediaTD = `<video controls loop autoplay style="max-width:100%;display:block"><source src="${path}"></video>`;
                     else if (f.match(/\.(mp3|wav|ogg)$/i))
                         mediaTD = `<audio controls style="display:block"><source src="${path}"></audio>`;
                     else
@@ -141,7 +145,7 @@ function openproject(key) {
 
 <h3><a name ="top">arien barley</a></h3>
 <table cellspacing="10">
-<tr><td><img id = "profile" src="me/inabox.png" height="200"><br><td><a href="#" onclick="randomProfile(); return false;">random picture</a><br></tr>
+<tr><td><img id = "profile" src="me/inabox.png" height="200"><br><td><a href="#" onclick="randomMedia(); return false;">random media</a><br></tr>
 </table>
 
 <hr>
