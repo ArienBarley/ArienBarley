@@ -85,8 +85,7 @@ window.onload = function () {
                     const tr = document.createElement("tr");
                     tr.innerHTML = `
                         <td>${date}</td>
-                        <td><a href="#" onclick="openproject('${key}'); return false;">${title}</a><p style="color: #888;>
-                        ${meta.trim()}</p></td>
+                        <td><a href="#" onclick="openproject('${key}'); return false;">${title}</a><i style="color: grey; font-size: 14px;">  ${meta.trim()}</i></td>
                     `;
                     tbody.appendChild(tr);
                 });
