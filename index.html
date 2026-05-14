@@ -85,9 +85,12 @@ function openproject(key) {
 
     Promise.all([...fetchTexts, ...fetchYoutube]).then(results => {
         const actualText  = results.slice(0, allTexts.length);
-        const youtubeURLs = results.slice(allTexts.length).map(url =>
-            url.trim().replace("watch?v=", "embed/")
-        );
+        const youtubeURLs = results.slice(allTexts.length).map(url => {
+            url = url.trim();
+            if (url.includes("youtu.be/"))
+                return url.replace("youtu.be/", "www.youtube.com/embed/");
+            return url.replace("watch?v=", "embed/");
+        });
 
         const rows = Math.max(allMedia.length + youtubeURLs.length, allTexts.length);
         const allMediaItems = [
