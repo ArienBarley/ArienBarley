@@ -25,12 +25,33 @@
     ".DS_Store",
     "dissertation v3 (3).pdf"
   ],
+  "projects/181200_Sketchbook_8": [
+    ".DS_Store",
+    "text.txt",
+    "8.mp4"
+  ],
   "projects/260512_title": [
     "pixels.png",
     "text.txt"
   ],
+  "projects/180500_Sketchbook_6": [
+    "6.mp4",
+    ".DS_Store",
+    "text.txt",
+    "glitched.png"
+  ],
   "projects/260412_Newer_media_art_worsening_dialemmas": [
     "draft 5.pdf"
+  ],
+  "projects/160000_Sketchbook_1": [
+    ".DS_Store",
+    "out.mp4",
+    "text.txt"
+  ],
+  "projects/190700_Sketchbook_7": [
+    "7.mp4",
+    ".DS_Store",
+    "text.txt"
   ],
   "projects/200000_portfolio_for_methodologies_of_drawing_course": [
     "portfolio .pdf"
@@ -57,37 +78,36 @@
     ".DS_Store",
     "SAP poster (8).pdf"
   ],
+  "projects/170000_Sketchbook_3": [
+    ".DS_Store",
+    "3.mp4",
+    "text.txt"
+  ],
   "projects/251200_untitled_performace": [
     ".DS_Store",
     "pixels2.jpeg",
     "pixels1.jpeg",
     "text.txt"
   ],
-  "projects/190000_Three_Views_of_time": [
+  "projects/170000_Sketchbook_4": [
+    ".DS_Store",
+    "4small.mp4",
+    "text.txt"
+  ],
+  "projects/191400_Three_Views_of_time": [
     "generations.youtube",
     "days.youtube",
     "text.txt",
     "mind.youtube"
   ],
-  "projects/180000_Sketchbook_4": [
-    "IMG_3813.jpg",
-    "IMG_3812.jpg",
-    "IMG_3811.jpg",
-    "IMG_3829.jpg",
-    "IMG_3815.jpg",
-    "IMG_3814.jpg",
-    "IMG_3828.jpg",
-    "IMG_3816.jpg",
-    "IMG_3817.jpg",
-    "IMG_3826.jpg",
-    "IMG_3827.jpg",
-    "IMG_3825.jpg",
-    "IMG_3819.jpg",
-    "IMG_3818.jpg",
-    "IMG_3824.jpg",
-    "IMG_3820.jpg",
-    "IMG_3823.jpg",
-    "IMG_3822.jpg",
+  "projects/180500_Sketchbook_5": [
+    "5.mp4",
+    ".DS_Store",
+    "text.txt"
+  ],
+  "projects/160000_Sketchbook_2": [
+    ".DS_Store",
+    "2.mp4",
     "text.txt"
   ],
   "projects/251200_things_coming_apart_in_charcoal": [
@@ -155,6 +175,7 @@
     "f006ea17a1508dda76f334790694821e501667"
   ],
   "git/objects/59": [
+    "9d2fd68e22adcf7abb8b1f96bdc0f4165817d5",
     "7bbad00b9ad2fdb52f82662aca6bf8e5ce285a"
   ],
   "git/objects/92": [
@@ -167,6 +188,9 @@
   ],
   "git/objects/66": [
     "0e59869d5047b6c92d71e70bbabf871819af7d"
+  ],
+  "git/objects/68": [
+    "9de18039898d169b00b7bd68611d381b0ee595"
   ],
   "git/objects/57": [
     "8cb69c98a7a43d6b8fb75a69fdf1db30870009",
@@ -191,6 +215,7 @@
     "b26926df35a7fabcd8d09a343ab5564d382f9c"
   ],
   "git/objects/56": [
+    "3d85efc8441f3a78ad956504d6e603c6d41f92",
     "41ca2a1ce4667348f3e305793ab4e0136be081"
   ],
   "git/objects/3d": [
@@ -202,6 +227,9 @@
   "git/objects/67": [
     "9d98a286b9b4ac98f9a7718f5f93ef8899ff48"
   ],
+  "git/objects/60": [
+    "dd82122482b88afa52e4ba64ba7c45200e669f"
+  ],
   "git/objects/33": [
     "414bc38b8533feadc930c77c86d11fc35a4818"
   ],
@@ -211,7 +239,12 @@
   ],
   "git/objects/9d": [
     "ca7e1fdd68ed0e51ff13f4649bbc24efc6e8bc",
-    "a779489fda05624e041cdb8e8230598583f437"
+    "7a4bcb3ac4b482b73fb56851aa4657b392c7c8",
+    "a779489fda05624e041cdb8e8230598583f437",
+    "119240c4ed050be6451f0fb66822bbd49c57f2"
+  ],
+  "git/objects/9c": [
+    "d0101582c9a17f81dee1ad0d32fb6c623132e8"
   ],
   "git/objects/a4": [
     "3c18542f8eed7b5054ba79e7d7e3ea5cd63be6"
@@ -232,6 +265,9 @@
     "b4e2dbf5027db6f1786b3861a69e76f00c047d",
     "a7ee188f5f7f4ab635ef6f4d13e536ce99a94a"
   ],
+  "git/objects/d6": [
+    "ae9211a06fb4ef98ae9f2d5542bbe44a81d0c1"
+  ],
   "git/objects/ae": [
     "101e2e5afc1aee95b496cb09dbcdd476ffd2cf"
   ],
@@ -240,6 +276,9 @@
   ],
   "git/objects/f4": [
     "923c2aa5b30702e41c3de3e60a99effc1d24da"
+  ],
+  "git/objects/f3": [
+    "b3f71666e55ac113d25517a7b2db02c086c4b9"
   ],
   "git/objects/eb": [
     "700e506670d2b2df34fdf7b78c257669248152",
@@ -250,7 +289,11 @@
     "19aa2b84f8b595c78c894a53d4dcdcf4435089",
     "ff50aacffeae5a1c7028ae4439945a6541a076"
   ],
+  "git/objects/fc": [
+    "0e362d18d7c0dfece465446e8c9734220d9629"
+  ],
   "git/objects/fd": [
+    "0fea6aedcf19506d1b898bc1a4dc0e94649bd7",
     "ed6d8e75e505e6d2e7d3cb0211a8135397ca53"
   ],
   "git/objects/f2": [
@@ -267,6 +310,7 @@
     "492785b692621d68969fd2cdb09a5bd13ef911"
   ],
   "git/objects/e4": [
+    "221b058ec5daa22dd882e17ba6ee8333f0c767",
     "3b0f988953ae3a84b00331d0ccf5f7d51cb3cf",
     "af372e4af73d30173c1f859197ec5c9606c660"
   ],
@@ -283,6 +327,12 @@
   "git/objects/c1": [
     "97ac61c3e7b048f3bb3f3c1d384cf40ebe5ecd"
   ],
+  "git/objects/20": [
+    "fbdfdf454e6cdd00748e289e795c6b22ee9ab2"
+  ],
+  "git/objects/27": [
+    "3e408575ca8ea3dc2324f83ba7c266d3cb59e3"
+  ],
   "git/objects/pack": [
     "pack-f7088947cb58b0cde30f7fb77e0e1169e42d4d49.pack",
     "pack-f7088947cb58b0cde30f7fb77e0e1169e42d4d49.idx",
@@ -296,6 +346,7 @@
     "f8524f07c47121edbd7947c6cddf2e8f0e51f3"
   ],
   "git/objects/45": [
+    "d76e9d01f31d2187cda6e25ae2fdc1b1660112",
     "0f9f53f9acb815edb0fa140a3df6b9cb098e1f"
   ],
   "git/objects/1f": [
@@ -365,7 +416,8 @@
     "064593ac04eff5e5486b0029214ce35a6b8812"
   ],
   "git/objects/6e": [
-    "5c2c8980e49b9a20c3631e1ab96eb2c4f5c703"
+    "5c2c8980e49b9a20c3631e1ab96eb2c4f5c703",
+    "478b2ec20077927edb4b6b5e7f0ed610d61b8f"
   ],
   "git/objects/36": [
     "342e4726eeb9c81702ad83f7e7aa933e537ccf",
@@ -379,6 +431,7 @@
     "0b9313bcfbfd1d66acee377d82e964505903a9"
   ],
   "git/objects/62": [
+    "2053a59d96d9d6f24f38fb662ff58c95eeddb0",
     "23e7c7a72f710af4a9d94745e9089980c0761f"
   ],
   "git/objects/96": [
@@ -389,6 +442,9 @@
   ],
   "git/objects/98": [
     "bb9653b3b791dd3ab882d59ddf565c6cf47d4a"
+  ],
+  "git/objects/30": [
+    "2f90b398e21c203e3933285433991e4a0bf4c3"
   ],
   "git/objects/5e": [
     "67c358407d1c224748c6e65ee54d1ddaf8c8e6"
@@ -409,6 +465,9 @@
   ],
   "git/objects/01": [
     "871461612a300009a21c76a62ed4c28a3febab"
+  ],
+  "git/objects/6c": [
+    "69261ad18c393173a8625e07befcdd00173578"
   ],
   "git/objects/99": [
     "d0c7bbc4767a8f556f49fd618199c25ab9ac4f",
@@ -435,11 +494,17 @@
   "git/objects/a0": [
     "85918c450958b35df43ae40d697769358bef84"
   ],
+  "git/objects/a7": [
+    "a2c309f7450b514221e92dd8ef5207432d1dd8"
+  ],
   "git/objects/b1": [
     "321b50bb550576ab8c2da16b0d4004868b10b5"
   ],
   "git/objects/dc": [
     "1097da6fa957f76df5210992f5ace5b6112020"
+  ],
+  "git/objects/d5": [
+    "aab2e7d884cd29d58279789bf88c439e105a74"
   ],
   "git/objects/af": [
     "556aabe44f293fb93e64b40e7fc12fc8c3ef37"
@@ -481,6 +546,9 @@
   "git/objects/ff": [
     "c77a0d17b131db968a81e5e916c8f436511df5"
   ],
+  "git/objects/c5": [
+    "273d42868e69d7aa9db83d7d2ddb347a89e523"
+  ],
   "git/objects/c2": [
     "1ded18178c27e7ec8244de2053c653f89916f2",
     "c4b1a0ea5992d6a0945641c198321188dabe8e"
@@ -489,6 +557,7 @@
     "ab742904012382f9133a0f907b97992988aa25"
   ],
   "git/objects/cb": [
+    "f287c355673fb7973da3c3c5034808294f8b1e",
     "2fd45d38cb0395700d35047add5065a248b740"
   ],
   "git/objects/f8": [
@@ -515,6 +584,7 @@
     "25b45ddf7864e5cd48e0579a30f03958604a95"
   ],
   "git/objects/1b": [
+    "edf3e67d4be5ea3ef683f356e8b1fae4d600f2",
     "eb66ff9cc559bc655186ee9d02561059d9115f",
     "9ad843aba558fe9c5222104f9c2b9e9788b3d5"
   ],
@@ -532,10 +602,14 @@
   "git/objects/24": [
     "8ae7a901937e3ad3dc73c39d5cadd790e4a2c0"
   ],
+  "git/objects/23": [
+    "5f80e8292e73793558540e5a62c51882ad6da5"
+  ],
   "git/objects/4f": [
     "d099b879773ce6d848f002333e56170a2c2211"
   ],
   "git/objects/8d": [
+    "235b7bd785d5bad35409e491fbaf51454eb276",
     "0235c30c73f94064b7b7ee07e23ae8a6a4c0d3"
   ],
   "git/objects/15": [
@@ -560,17 +634,22 @@
     "cfc9c76aef51b54a66bd3c1fecc908ea9d5df1"
   ],
   "git/objects/82": [
+    "87aeb10763f496ba67a7c09d0016793fca2ed5",
     "23efca9205c7ddb0cccb5df154491df22efea6"
   ],
   "git/objects/49": [
     "f6b2fdc1fc5a02afc8cc04c007fb90728a3cf8"
   ],
   "git/objects/40": [
+    "87631d2d5dc2bc194d0d5cf60bc866ed246cb7",
     "e8d189fc6541b291f38721f05faab053070b04"
   ],
   "git/objects/78": [
     "8ed16bdbd155a2e51ef4ddc34f5e492a7d308e",
     "14f20165d4f2a2eebe426720f6a605c4598a50"
+  ],
+  "git/objects/13": [
+    "261d0f5633874eac37c9a73e14f1be0b6f8b86"
   ],
   "git/objects/7f": [
     "ace3ca468d9a9faaa9bb4ae3f81a6dd61184e7",
