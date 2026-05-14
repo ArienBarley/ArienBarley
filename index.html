@@ -43,6 +43,7 @@ function randomMedia() {
         el.src = path;
     }
 }
+
 window.onload = function () {
     document.getElementById("loading").style.display = "block";
 	console.log("hello -_-");
@@ -84,8 +85,8 @@ window.onload = function () {
                     const tr = document.createElement("tr");
                     tr.innerHTML = `
                         <td>${date}</td>
-                        <td><a href="#" onclick="openproject('${key}'); return false;">${title}</a></td>
-                        <td style="color:#888">${meta.trim()}</td>
+                        <td><a href="#" onclick="openproject('${key}'); return false;">${title}</a><p style="color: #888;>
+                        ${meta.trim()}</p></td>
                     `;
                     tbody.appendChild(tr);
                 });
