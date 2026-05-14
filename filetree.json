@@ -7,6 +7,7 @@
     "README.md",
     ".gitignore",
     "filetree.json",
+    "robots.txt",
     "uhoh.png",
     "updataJson.py"
   ],
@@ -14,41 +15,47 @@
     ".DS_Store"
   ],
   "projects/200500_Sketchbook_12": [
+    "meta.txt",
     ".DS_Store",
     "messed up order.mp4",
     "13.mp4",
     "text.txt"
   ],
   "projects/260200_selected_audio_dissolutions": [
+    "meta.txt",
     "materialObjectTek.mp3",
     "text.txt"
   ],
   "projects/220000_portfolio_2022": [
+    "meta.txt",
     "Arien Barley Art Portfolio.pdf"
   ],
   "projects/260325_sitting_in_a_voice_cloning_algorithm_explaining_my_project": [
+    "meta.txt",
     ".DS_Store",
-    "pixels1.youtube"
-  ],
-  "projects/260506_dissertation_(writeup for system_portrait_16.03.2026)": [
-    ".DS_Store",
-    "dissertation v3 (3).pdf"
+    "pixels1.youtube",
+    "text2.txt"
   ],
   "projects/181200_Sketchbook_8": [
+    "meta.txt",
     ".DS_Store",
     "text.txt",
     "8.mp4"
   ],
   "projects/180500_Sketchbook_6": [
     "6.mp4",
+    "meta.txt",
     ".DS_Store",
     "text.txt",
     "glitched.png"
   ],
   "projects/260412_Newer_media_art_worsening_dialemmas": [
+    "meta.txt",
+    ".DS_Store",
     "draft 5.pdf"
   ],
   "projects/160000_Sketchbook_1": [
+    "meta.txt",
     "1.mp4",
     ".DS_Store",
     "text.txt"
@@ -56,6 +63,7 @@
   "projects/260312_Stolen_Drawings": [
     "pixels3.youtube",
     "pixels2.youtube",
+    "meta.txt",
     ".DS_Store",
     "pixels1.youtube",
     "text1.txt",
@@ -64,14 +72,22 @@
   ],
   "projects/190700_Sketchbook_7": [
     "7.mp4",
+    "meta.txt",
     ".DS_Store",
     "text.txt"
   ],
+  "projects/260415_\"AI\" has not \"arrived\" ": [
+    "meta.txt",
+    ".DS_Store",
+    "SAP poster (8).pdf"
+  ],
   "projects/200000_portfolio_for_methodologies_of_drawing_course": [
+    "meta.txt",
     "portfolio .pdf"
   ],
   "projects/260316_System_Portrait_16.03.2026": [
     "pixels2.youtube",
+    "meta.txt",
     ".DS_Store",
     "text1.txt",
     "pixels1.png",
@@ -79,66 +95,75 @@
     "text3.txt",
     "text2.txt"
   ],
-  "projects/260415_AI_HAS_NOT_ARRIVED": [
-    ".DS_Store",
-    "SAP poster (8).pdf"
-  ],
   "projects/170000_Sketchbook_3": [
+    "meta.txt",
     ".DS_Store",
     "3.mp4",
     "text.txt"
   ],
   "projects/251200_untitled_performace": [
+    "meta.txt",
     ".DS_Store",
+    "pix0Network Jungle 1.jpg",
     "pixels2.jpeg",
     "pixels1.jpeg",
+    "pixels5.png",
+    "pixels4.png",
     "text1.txt",
+    "pixels3.png",
     "text2.txt"
   ],
   "projects/170000_Sketchbook_4": [
+    "meta.txt",
     ".DS_Store",
     "4small.mp4",
     "text.txt"
   ],
   "projects/160500_Sketchbook_2": [
+    "meta.txt",
     ".DS_Store",
     "2.mp4",
     "text.txt"
   ],
   "projects/191400_Three_Views_of_time": [
+    "meta.txt",
     "generations.youtube",
     "days.youtube",
     "text.txt",
     "mind.youtube"
   ],
+  "projects/260100_things_coming_apart_in_charcoal": [
+    "meta.txt",
+    ".DS_Store",
+    "pix4light cloud.jpg",
+    "pix3Peeling 3.jpeg",
+    "pix2peeling 1.jpeg",
+    "pix9incentives.jpeg",
+    "pix6dream 2.jpg",
+    "pix5Dream 1.jpeg",
+    "pix1Peeling 2.jpg",
+    "pix8eggpeal.jpg",
+    "text3.txt",
+    "text2.txt",
+    "text.txt",
+    "pix7 1000019315.jpg"
+  ],
   "projects/180500_Sketchbook_5": [
     "5.mp4",
+    "meta.txt",
     ".DS_Store",
     "text.txt"
   ],
   "projects/210000_Sketchbook_13": [
+    "meta.txt",
     ".DS_Store",
     "13.mp4",
     "text.txt"
   ],
-  "projects/251200_things_coming_apart_in_charcoal": [
-    "chaotics.jpeg",
-    "Dream 1.jpeg",
-    "incentives.jpeg",
+  "projects/260506_dissertation": [
+    "meta.txt",
     ".DS_Store",
-    "Peeling 2.jpg",
-    "1000018227.jpg",
-    "Peeling 3.jpeg",
-    "1000018230.jpg",
-    "1000019315.jpg",
-    "incentive river.jpeg",
-    "Network Jungle 1.jpg",
-    "1000018223.jpg",
-    "peeling 1.jpeg",
-    "dream 2.jpg",
-    "eggpeal.jpg",
-    "text.txt",
-    "light cloud.jpeg"
+    "dissertation v3 (3).pdf"
   ],
   "me": [
     "Screenshot 2026-05-12 at 22.41.21.png",
@@ -213,6 +238,7 @@
     "0e59869d5047b6c92d71e70bbabf871819af7d"
   ],
   "git/objects/3e": [
+    "d4f314397511762990a7f67e2aeab7d836c686",
     "7e9e7f073dda2ba3fa6d886156333dcde4183d"
   ],
   "git/objects/68": [
@@ -242,6 +268,9 @@
   "git/objects/04": [
     "e978ecc5b88ac510ca41562fa0a4b86e2ef000"
   ],
+  "git/objects/6a": [
+    "587d6c3935c91c2c4e805dfb83a8fb5b4397b8"
+  ],
   "git/objects/32": [
     "960911825bc7daeadeb7ca1a8b8f06bd745828",
     "b26926df35a7fabcd8d09a343ab5564d382f9c"
@@ -267,6 +296,9 @@
     "9d98a286b9b4ac98f9a7718f5f93ef8899ff48",
     "7f7862737af8306f47faa7346376aecc46c0b4",
     "afe3475a57734dc1f6e0e5265248c39a6e45e1"
+  ],
+  "git/objects/0b": [
+    "570426f0c549a78e952541647b75f51b209f7e"
   ],
   "git/objects/93": [
     "c407c829d31ea736492daa6006993f7496bf89"
@@ -311,7 +343,11 @@
   "git/objects/b5": [
     "982ba6ae7d0e07d7039ef3d19a8cfeea0650e5",
     "c95d9a21aab508b18bb95b3a23c5de1ab58578",
-    "302a76112b39add2d3901113b8a42ada664c8d"
+    "302a76112b39add2d3901113b8a42ada664c8d",
+    "1bf4adc16f6b788b55a5ade6cc3e0baa9b7c59"
+  ],
+  "git/objects/b2": [
+    "3dbe7b0fb1578031a097d733ee1cbf28718dae"
   ],
   "git/objects/d9": [
     "329fe854c4b4aeab495f1732f5dfddc9dd9ca7",
@@ -374,6 +410,7 @@
   "git/objects/f3": [
     "03982fa4ee88455941fe2f96ccf80d0230992e",
     "658f55df5daf88cabc21a565bd7d6f4f70639e",
+    "073b0330fcb8129b8289d4c570b128a085bb77",
     "b3f71666e55ac113d25517a7b2db02c086c4b9"
   ],
   "git/objects/eb": [
@@ -478,6 +515,7 @@
   ],
   "git/objects/17": [
     "2af4a76e8110e73e800b0d3a458f69fc92ce3a",
+    "ef37ea4d1942e3a946456b71d0ff27b05ede2a",
     "88f7c060ff3bd7904f4e72905ab3d61ac4c264",
     "bd7a827d7c399b0c7d176484f5c0a2c89f23b7"
   ],
@@ -515,7 +553,8 @@
   ],
   "git/objects/86": [
     "25b5da24dfce3fb5770fec8b516a3f36517c98",
-    "a61a9d938702a78583e6ac4f2bc26db8fcbba1"
+    "a61a9d938702a78583e6ac4f2bc26db8fcbba1",
+    "af287a78e7b0c52bde5f090feae8d0413f11ad"
   ],
   "git/objects/2a": [
     "159a4b153edd0e30db9767c43d4f73a5d63f6c",
@@ -523,7 +562,8 @@
     "117ee034f7a2c2c74ee79a7b1bd1a7498210f0"
   ],
   "git/objects/88": [
-    "126d97d8d35940dab1f0ae1414dd57635b3250"
+    "126d97d8d35940dab1f0ae1414dd57635b3250",
+    "8078ca8e5ec3f8981d66c1df1ecad24036e558"
   ],
   "git/objects/9f": [
     "e484fa181249af4e92920109e6253ba2f9a3a9",
@@ -573,6 +613,7 @@
   ],
   "git/objects/62": [
     "2053a59d96d9d6f24f38fb662ff58c95eeddb0",
+    "161c3a2a6bcc0ce8fe0df6b1edcc8a43d266c5",
     "23e7c7a72f710af4a9d94745e9089980c0761f"
   ],
   "git/objects/96": [
@@ -602,6 +643,7 @@
     "d83227203d4e3a9de12e9a1035d30cd1afee10"
   ],
   "git/objects/08": [
+    "20ae116549b716e944dc34046e0cf480b1386c",
     "a979b8f545ee66e3c63e3d084e9ad9cf1ad765"
   ],
   "git/objects/6d": [
@@ -625,6 +667,9 @@
   "git/objects/55": [
     "90874b21bc5050f9504c0829c9c501ce6bd915"
   ],
+  "git/objects/97": [
+    "a0255e5f64abb192b7aa8fef9478181d097dcb"
+  ],
   "git/objects/63": [
     "8f8bb56b5cb054f3802bc4d3076a10659c7680",
     "605cd2fcbb3ff948e108a3ba6dd2ea45bc1901"
@@ -632,6 +677,9 @@
   "git/objects/0f": [
     "deda7543b7d7ad7f4adec41a48c2738cc12910",
     "a89af3908e6d3acb4f976bd37392bccf1451a3"
+  ],
+  "git/objects/0a": [
+    "6e7f8950834ca4a3ea3aab65b50368c151679b"
   ],
   "git/objects/90": [
     "574a82b0be61c3eaeea1e34c7d6ef560cdbf57",
@@ -649,10 +697,14 @@
     "25558bb4655dadfa1fd28e6722839215cbe682"
   ],
   "git/objects/a0": [
-    "85918c450958b35df43ae40d697769358bef84"
+    "85918c450958b35df43ae40d697769358bef84",
+    "95a5a634cf6e6a9682728f6e32eec210795e17"
   ],
   "git/objects/a7": [
     "a2c309f7450b514221e92dd8ef5207432d1dd8"
+  ],
+  "git/objects/b8": [
+    "b91dc3d7ffea0bdf8785d7e8ae44f170cd7c50"
   ],
   "git/objects/b1": [
     "321b50bb550576ab8c2da16b0d4004868b10b5"
@@ -682,6 +734,7 @@
     "91331d0945cf512d04ece5c110fb0ac01eb30b",
     "c5e057ffd6b2487edb2f69dff514c559544d2f",
     "279f76536ea0b64bdddd5306e62dccd8e25c0a",
+    "03d18c8e2f37953ccaca7407c2b82d8d693d27",
     "78327e28d154b8fe5217cf71403b8a117c63c4"
   ],
   "git/objects/b0": [
@@ -696,6 +749,9 @@
   ],
   "git/objects/a1": [
     "8d0e0768b880eed923b1981a0076673bdf91ee"
+  ],
+  "git/objects/cd": [
+    "8d21539599befed49ba84b2a6582140da738f1"
   ],
   "git/objects/cc": [
     "849dd3a6f53ca1e3e532f2446f5c018b1f7ff7",
@@ -727,6 +783,7 @@
     "c4b1a0ea5992d6a0945641c198321188dabe8e"
   ],
   "git/objects/f6": [
+    "89ed5868ab4a74e086b2cd419e40190c3f4aa4",
     "ced14c1696d1261257c234c1fe1d28d920285a"
   ],
   "git/objects/e9": [
@@ -755,6 +812,9 @@
     "d880795dec3142fe135cd8904385e3391c3cb0",
     "5df5367998aa2bd13f2f18a691e5996dabd1a7",
     "e7afc1293d2cee3fc529d13b0702e367fa9941"
+  ],
+  "git/objects/2d": [
+    "1adfd2f6add328bd74b002c1b384528d8a4e66"
   ],
   "git/objects/41": [
     "67666869e7655673a412bf5b1c1fcf9721cc7c",
@@ -786,6 +846,7 @@
   ],
   "git/objects/23": [
     "5f80e8292e73793558540e5a62c51882ad6da5",
+    "452559facacaa30a3c8c6bbd1a117c49735ab3",
     "4e24adc10c76edddc7134de49cd9260e514215"
   ],
   "git/objects/4f": [

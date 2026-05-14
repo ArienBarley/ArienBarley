@@ -1,0 +1,1 @@
+Each clip uses the previous clip for voice cloning reference
