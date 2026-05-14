@@ -14,9 +14,30 @@ function randomProfile() {
     document.getElementById("profile").src = "me/" + pic;
 }
 function randomMedia() {
-    const me = FILETREE["me"].filter(f => !f.startsWith("."));
-    const pic = me[Math.floor(Math.random() * me.length)];
-    document.getElementById("profile").src = "me/" + pic;
+    const allMedia = [];
+    Object.keys(FILETREE).forEach(folder => {
+        FILETREE[folder]
+            .filter(f => !f.startsWith(".") && f.match(/\.(png|jpg|jpeg|gif|mp4|m4v|webm|mov|mp3|wav|ogg)$/i))
+            .forEach(f => allMedia.push({ folder, f }));
+    });
+    const pick = allMedia[Math.floor(Math.random() * allMedia.length)];
+    const path = pick.folder === "." ? pick.f : `${pick.folder}/${pick.f}`;
+    const el = document.getElementById("profile");
+
+    if (pick.f.match(/\.(mp4|m4v|webm|mov)$/i)) {
+        const vid = document.createElement("video");
+        vid.src = path;
+        vid.controls = true;
+        vid.loop = true;
+        vid.autoplay = true;
+        vid.muted = true;
+        vid.style.cssText = el.style.cssText;
+        vid.height = el.height;
+        el.replaceWith(vid);
+        vid.id = "profile";
+    } else {
+        el.src = path;
+    }
 }
 window.onload = function () {
 	console.log("hello -_-");
