@@ -10,6 +10,9 @@
   "projects": [
     ".DS_Store"
   ],
+  "projects/220000_portfolio_2022": [
+    "Arien Barley Art Portfolio.pdf"
+  ],
   "projects/260325_sitting_in_a_voice_cloning_algorithm_explaining_my_project": [
     ".DS_Store",
     "pixels1.youtube"
@@ -24,6 +27,9 @@
   ],
   "projects/260412_Newer_media_art_worsening_dialemmas": [
     "draft 5.pdf"
+  ],
+  "projects/200000_portfolio_for_methodologies_of_drawing_course": [
+    "portfolio .pdf"
   ],
   "projects/260316_System_Portrait_16.03.2026": [
     "pixels2.youtube",
@@ -159,8 +165,16 @@
     "89b4c9e1b69b40c9d68ab24a7e41660a968582",
     "d34bcbf3ea7b05e67f24ec2a629895ee927843"
   ],
+  "git/objects/9d": [
+    "a779489fda05624e041cdb8e8230598583f437"
+  ],
   "git/objects/a4": [
     "3c18542f8eed7b5054ba79e7d7e3ea5cd63be6"
+  ],
+  "git/objects/b5": [
+    "982ba6ae7d0e07d7039ef3d19a8cfeea0650e5",
+    "c95d9a21aab508b18bb95b3a23c5de1ab58578",
+    "302a76112b39add2d3901113b8a42ada664c8d"
   ],
   "git/objects/da": [
     "8cdb651c8eb44f9d646087918fcbce2c4cc0b9"
@@ -199,7 +213,8 @@
     "af372e4af73d30173c1f859197ec5c9606c660"
   ],
   "git/objects/fe": [
-    "9447d236d4771a90b4bd34e8dcf5a59cc40a1e"
+    "9447d236d4771a90b4bd34e8dcf5a59cc40a1e",
+    "b09a28b14defafea007d55d9ef2b74ef0bfdc4"
   ],
   "git/objects/fb": [
     "b3e4430c340b0eaab16629cd2d220c310e2c65"
@@ -215,6 +230,9 @@
   "git/objects/7c": [
     "a57323e9565f7e2b2403efe40d18caa9b63602",
     "f8524f07c47121edbd7947c6cddf2e8f0e51f3"
+  ],
+  "git/objects/45": [
+    "0f9f53f9acb815edb0fa140a3df6b9cb098e1f"
   ],
   "git/objects/1f": [
     "02866f327e3a40455cf330433631655eca64e0"
@@ -271,13 +289,17 @@
     "5c2c8980e49b9a20c3631e1ab96eb2c4f5c703"
   ],
   "git/objects/36": [
-    "342e4726eeb9c81702ad83f7e7aa933e537ccf"
+    "342e4726eeb9c81702ad83f7e7aa933e537ccf",
+    "595c07d2b3e53147bd69ee64d47726caf842d2"
   ],
   "git/objects/09": [
     "d94f91c5e62cf580cfd795db7cd55ba49c4eef"
   ],
   "git/objects/5d": [
     "0b9313bcfbfd1d66acee377d82e964505903a9"
+  ],
+  "git/objects/62": [
+    "23e7c7a72f710af4a9d94745e9089980c0761f"
   ],
   "git/objects/96": [
     "5ef8d283fd034195416cbaf62befc162d76666"
@@ -288,14 +310,21 @@
   "git/objects/5b": [
     "5f1f83b6fb28bdd8bbb96c2a4fb2d5f54c7496"
   ],
+  "git/objects/37": [
+    "d83227203d4e3a9de12e9a1035d30cd1afee10"
+  ],
   "git/objects/08": [
     "a979b8f545ee66e3c63e3d084e9ad9cf1ad765"
   ],
   "git/objects/6d": [
-    "118fee51916539067ec57396511388954b98c5"
+    "118fee51916539067ec57396511388954b98c5",
+    "110aa3bdb5329d8d11a9dcc1f45d67f8073d46"
   ],
   "git/objects/99": [
     "d0c7bbc4767a8f556f49fd618199c25ab9ac4f"
+  ],
+  "git/objects/55": [
+    "90874b21bc5050f9504c0829c9c501ce6bd915"
   ],
   "git/objects/0f": [
     "a89af3908e6d3acb4f976bd37392bccf1451a3"
@@ -342,6 +371,9 @@
     "128cb2a5b89fe78515cf6df9b375a802f5de77",
     "c34373c82a894747febbf88c2fbaa2786d03bd"
   ],
+  "git/objects/fa": [
+    "49fd205a1ae1e295f3f2ef6bda49173591f077"
+  ],
   "git/objects/ff": [
     "c77a0d17b131db968a81e5e916c8f436511df5"
   ],
@@ -350,6 +382,9 @@
   ],
   "git/objects/e9": [
     "ab742904012382f9133a0f907b97992988aa25"
+  ],
+  "git/objects/cb": [
+    "2fd45d38cb0395700d35047add5065a248b740"
   ],
   "git/objects/f8": [
     "ef41e0252f78e6e773c5c51e70e10b521c0d7e"
@@ -415,6 +450,9 @@
   ],
   "git/objects/40": [
     "e8d189fc6541b291f38721f05faab053070b04"
+  ],
+  "git/objects/78": [
+    "8ed16bdbd155a2e51ef4ddc34f5e492a7d308e"
   ],
   "git/objects/7f": [
     "ace3ca468d9a9faaa9bb4ae3f81a6dd61184e7"
