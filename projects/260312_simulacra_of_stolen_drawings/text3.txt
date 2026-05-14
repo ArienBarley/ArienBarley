@@ -1,60 +1,7 @@
 Exhibition text
 -----------------------------------------------
 
-[epoch
-_
-355
-_gravity_
-sequence
-_
-str0.16
-_
-cap0.9
-_
-initspd0.5
-_
-speed
-_
-cap_
-sub2
-_
-001,
-epoch
-_
-355
-_
-simulacra
-_peeling 1
-_
-01754
-_
-blend0.5
-_
-noise0.0
-_
-driftnone0.0
-_
-005,
-epoch
-_
-355
-_gravity_
-sequence
-_
-sort
-_
-str0.16
-_
-cap0.9
-_
-initspd0.5
-_
-speed
-_
-cap_
-sub2
-_
-001 ]
+[epoch_355_gravity_sequence_str0.16_cap0.9_initspd0.5_speed_cap_sub2_001, epoch_355_simulacra_peeling 1_01754_blend0.5_noise0.0_driftnone0.0_005, epoch_355_gravity_sequence_sort_str0.16_cap0.9_initspd0.5_speed_cap_sub2_001 ]
 (2026)
 Arien Barley
 Digital traces of charcoal drawings, code, electronics
