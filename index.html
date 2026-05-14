@@ -64,25 +64,29 @@ window.onload = function () {
 		    });
 
 		const tbody = document.getElementById("portfolio").querySelector("tbody");
-		projects.forEach(key => {
-			//loop over projects
-			const folderName = key.replace("projects/", "");
-			var date = folderName.slice(0,6);
-			const title = folderName.slice(7).replace(/_/g, " ");
-			const yy = date.slice(0, 2);
-	        const mm = date.slice(2, 4);
-	        const dd = date.slice(4, 6);
-	        date = `20${yy}-${mm}-${dd}`;
-	        console.log("work: ",date, "   ", title);
+        projects.forEach(key => {
+            const folderName = key.replace("projects/", "");
+            var date = folderName.slice(0,6);
+            const title = folderName.slice(7).replace(/_/g, " ");
+            const yy = date.slice(0, 2);
+            const mm = date.slice(2, 4);
+            const dd = date.slice(4, 6);
+            date = `20${yy}-${mm}-${dd}`;
 
-	        const tr = document.createElement("tr");
-			tr.innerHTML = `
-	        <td>${date}</td>
-	        <td><a href="#" onclick="openproject('${key}'); return false;">${title}</a></td>
-	      	`;
-
-        tbody.appendChild(tr);
-		})
+            // NEW: try to grab meta.txt
+            fetch(`${key}/meta.txt`)
+                .then(r => r.ok ? r.text() : "")
+                .catch(() => "")
+                .then(meta => {
+                    const tr = document.createElement("tr");
+                    tr.innerHTML = `
+                        <td>${date}</td>
+                        <td><a href="#" onclick="openproject('${key}'); return false;">${title}</a></td>
+                        <td style="color:#888">${meta.trim()}</td>
+                    `;
+                    tbody.appendChild(tr);
+                });
+        })
 		//end generate projects list
         document.getElementById("loading").style.display = "none";
 	})
