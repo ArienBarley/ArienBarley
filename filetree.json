@@ -11,14 +11,14 @@
   "projects": [
     ".DS_Store"
   ],
-  "projects/20260200_selected_audio_dissolutions": [
-    "materialObjectTek.mp3",
-    "text.txt"
-  ],
   "projects/200500_Sketchbook_12": [
     ".DS_Store",
     "messed up order.mp4",
     "13.mp4",
+    "text.txt"
+  ],
+  "projects/260200_selected_audio_dissolutions": [
+    "materialObjectTek.mp3",
     "text.txt"
   ],
   "projects/220000_portfolio_2022": [
@@ -36,10 +36,6 @@
     ".DS_Store",
     "text.txt",
     "8.mp4"
-  ],
-  "projects/260512_title": [
-    "pixels.png",
-    "text.txt"
   ],
   "projects/180500_Sketchbook_6": [
     "6.mp4",
@@ -261,6 +257,9 @@
   "git/objects/94": [
     "1bb10333f984ee071b64b85640cece70392dbb"
   ],
+  "git/objects/0e": [
+    "12e3ab6cf3f975374e1790cb071ce778031fd1"
+  ],
   "git/objects/60": [
     "dd82122482b88afa52e4ba64ba7c45200e669f"
   ],
@@ -308,6 +307,9 @@
   ],
   "git/objects/be": [
     "328d1a8f4a19ce3d9812010a44ce063645570d"
+  ],
+  "git/objects/b3": [
+    "4ee94075c4b1ef2cdf63e2ed2ae2296aa8c368"
   ],
   "git/objects/da": [
     "8cdb651c8eb44f9d646087918fcbce2c4cc0b9"
@@ -432,7 +434,8 @@
     "b457db66598349ee886d0be8696a470dfd0714"
   ],
   "git/objects/28": [
-    "aad6df0705ac750ca3e22146bb506043dc0516"
+    "aad6df0705ac750ca3e22146bb506043dc0516",
+    "4ddacaf4f0c151c931778db5c327ef96c33f6f"
   ],
   "git/objects/17": [
     "2af4a76e8110e73e800b0d3a458f69fc92ce3a",
@@ -561,6 +564,9 @@
   "git/objects/01": [
     "871461612a300009a21c76a62ed4c28a3febab"
   ],
+  "git/objects/06": [
+    "c83ae500ff4670b5b0825a057ef6a2309d7118"
+  ],
   "git/objects/6c": [
     "69261ad18c393173a8625e07befcdd00173578"
   ],
@@ -589,6 +595,9 @@
   "git/objects/d3": [
     "90842093486cfd7781423e6881cd70e8baa37d",
     "27684e47714b7f1766e626517ebc9dad3f3170"
+  ],
+  "git/objects/d4": [
+    "25558bb4655dadfa1fd28e6722839215cbe682"
   ],
   "git/objects/a0": [
     "85918c450958b35df43ae40d697769358bef84"
@@ -628,6 +637,9 @@
   ],
   "git/objects/a6": [
     "3f239df5730c7b9383ee7e10eefaddfb38680a"
+  ],
+  "git/objects/b9": [
+    "3b25c86f1286104a69dc2de0ac5ab315533a09"
   ],
   "git/objects/a1": [
     "8d0e0768b880eed923b1981a0076673bdf91ee"
@@ -789,7 +801,8 @@
   ],
   "git/objects/25": [
     "acaccc683ffe5c0405bcd305273e279a662746",
-    "d911991f3a946205fa728668ffb6fe0015710b"
+    "d911991f3a946205fa728668ffb6fe0015710b",
+    "4c4c6376adf90af090e4db727d1e7873404fb4"
   ],
   "git/info": [
     "exclude"
