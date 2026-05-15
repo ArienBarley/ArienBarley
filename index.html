@@ -178,7 +178,8 @@ function openproject(key) {
             if (allMediaItems[i]) {
                 const item = allMediaItems[i];
                 if (item.type === "youtube") {
-                    mediaTD = `<iframe width="100%" height="315" src="${item.url}" frameborder="0" allowfullscreen></iframe>`;
+                    mediaTD = `<div style="max-width:100%;overflow:hidden"><iframe width="100%" height="315" src="${item.url}" frameborder="0" allowfullscreen></iframe></div>`;
+
                 } else {
                     const f = item.f;
                     const path = `${key}/${f}`;
@@ -199,12 +200,12 @@ function openproject(key) {
             <base href="${window.location.href}">
             <style>
                 body { margin: 20px; }
-                table { width: 100%; border-collapse: collapse; }
-                td { vertical-align: top; padding: 10px; width: 50%; border-top: 1px solid #eee; }
-                pre { white-space: pre-wrap; word-wrap: break-word; }
+                table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+                td { vertical-align: top; padding: 10px; width: 50%; border-top: 1px solid #eee; word-wrap: break-word; overflow-wrap: break-word; overflow: hidden; }
+                pre { white-space: pre-wrap; word-wrap: break-word; overflow-wrap: break-word; max-width: 100%; overflow: hidden; }
+
             </style>
             </head><body>
-            <h3>${title}</h3>
             <table><tbody>${tableRows}</tbody></table>
             </body></html>`;
 
