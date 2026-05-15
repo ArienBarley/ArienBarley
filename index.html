@@ -15,6 +15,8 @@ function randomProfile() {
     document.getElementById("profile").src = "me/" + pic;
 }
 function randomMedia() {
+    //const more = document.getElementById("MORE_GAMIFY").cloneNode(true); 
+    //document.getElementById("MORE_GAMIFY").appendChild(more)
     const allMedia = [];
     Object.keys(FILETREE).forEach(folder => {
         FILETREE[folder]
@@ -223,8 +225,11 @@ function openproject(key) {
 <img id = "profile" src="me/14 stream.gif" height="300"><br>
 
 <p><a href="#" onclick="randomMedia(); return false;">random media</a><br></p>
-
-<hr>
+<!--<details open>
+  <summary></summary>
+  <hr id="MORE_GAMIFY">
+</details>
+--><hr>
 <h3><a NAME="bitsandpeices">works.</a></h3>
 <div id="loading" style = "display: block;"><p>loading</p><img id="loading_img" src="loading.gif"></div>
 <table id='portfolio' cellspacing="10">
