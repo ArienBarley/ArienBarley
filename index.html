@@ -22,25 +22,64 @@ function randomMedia() {
             .forEach(f => allMedia.push({ folder, f }));
     });
     const pick = allMedia[Math.floor(Math.random() * allMedia.length)];
-    const path = pick.folder === "." ? pick.f : `${pick.folder}/${pick.f}`;
+    const path = pick.folder === "root" ? pick.f : `${pick.folder}/${pick.f}`;
+
     const el = document.getElementById("profile");
 
     if (pick.f.match(/\.(mp4|m4v|webm|mov)$/i)) {
-        const vid = document.createElement("video");
+        let vid = document.getElementById("profile");
+        if (vid.tagName !== "VIDEO") {
+            vid = document.createElement("video");
+            vid.id = "profile";
+            vid.height = document.getElementById("profile").height || 200;
+            document.getElementById("profile").replaceWith(vid);
+        }
         vid.src = path;
         vid.controls = true;
         vid.loop = true;
         vid.autoplay = true;
         vid.muted = true;
-        vid.style.cssText = el.style.cssText;
-        vid.height = el.height;
-        vid.playsinline = true;
         vid.setAttribute("playsinline", "");
-        el.replaceWith(vid);
-        vid.id = "profile";
+        vid.load();
         vid.play().catch(() => {});
+
+    } else if (pick.f.match(/\.(mp3|wav|ogg)$/i)) {
+        const el = document.getElementById("profile");
+        // replace whatever's there with an img placeholder + audio player
+        if (el.tagName !== "IMG") {
+            const img = document.createElement("img");
+            img.id = "profile";
+            img.height = 200;
+            img.src = el.src || "me/inabox.png";
+            el.replaceWith(img);
+        }
+        // reuse or create audio element below profile
+        let aud = document.getElementById("profile-audio");
+        if (!aud) {
+            aud = document.createElement("audio");
+            aud.id = "profile-audio";
+            document.getElementById("profile").insertAdjacentElement("afterend", aud);
+        }
+        aud.src = path;
+        aud.controls = true;
+        aud.loop = true;
+        aud.autoplay = true;
+        aud.load();
+        aud.play().catch(() => {});
+
     } else {
-        el.src = path;
+        // image/gif
+        const el = document.getElementById("profile");
+        if (el.tagName !== "IMG") {
+            const img = document.createElement("img");
+            img.id = "profile";
+            img.height = 200;
+            el.replaceWith(img);
+        }
+        // remove any leftover audio player
+        const oldAud = document.getElementById("profile-audio");
+        if (oldAud) oldAud.remove();
+        document.getElementById("profile").src = path;
     }
 }
 
@@ -180,10 +219,10 @@ function openproject(key) {
 
 
 <h3><a name ="top">arien barley </a></h3>
-<i>collective:<a href="https://intheshadow.works/">ShadowWorks</a></i>
-<table cellspacing="10">
-<tr><td><img id = "profile" src="me/14 stream.gif" height="200"><br><td><a href="#" onclick="randomMedia(); return false;">random media</a><br></tr>
-</table>
+<p><i>collective:<a href="https://intheshadow.works/">ShadowWorks</a></i></p>
+<img id = "profile" src="me/14 stream.gif" height="300"><br>
+
+<p><a href="#" onclick="randomMedia(); return false;">random media</a><br></p>
 
 <hr>
 <h3><a NAME="bitsandpeices">works.</a></h3>
