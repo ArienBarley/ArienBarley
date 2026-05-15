@@ -1,7 +1,7 @@
 import os
 import json
 output = 'filetree.json'
-ignore = '.DS_Store'
+ignore = ['.DS_Store', ".git"]
 
 tree = {}
 for root, dirs, files in os.walk("."):
